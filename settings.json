@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySQLLocal",
+            "database": "stock_portfolio",
+            "username": "root",
+            "password": "SQL@123",
+            "connectionTimeout": 30
+        }
+    ]
+}
+
+
+
+
