@@ -1,0 +1,182 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.quiz-container {
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 15px rgba(255,0,0,0.6);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.red {
+  color: #ff3333;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #ff3333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #cc0000;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* feedback styling */
+.qa {
+  border-top: 1px solid rgba(255,255,255,0.05);
+  padding-top: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.qtext {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.user.correct { color: #33cc33; }     /* green */
+.user.wrong { color: #ff6666; }       /* red */
+.user.unattempted { color: #ffcc00; } /* yellow */
+
+.correct-answer {
+  color: #ffffff;
+  opacity: 0.95;
+  margin-bottom: 6px;
+}
+
+.performance {
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.retake {
+  background: transparent;
+  border: 1px solid #ff3333;
+  color: #ff3333;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.retake:hover { background: rgba(255,51,51,0.06); }
+
+.question label:focus-within {
+  outline: 2px dashed rgba(255,51,51,0.12);
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.header {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+.logo {
+  height: 50px;
+  width: auto;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .quiz-container { padding: 16px; }
+  .qtext { font-size: 15px; }
+  button, .retake { font-size: 15px; padding: 10px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
