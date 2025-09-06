@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KDAG Quiz</title>
+  <link rel="stylesheet" href="style.css">
+
+  <header class="header">
+    <a href="https://kdagiitkgp.com" target="_blank">
+      <img src="logo.png" alt="KDAG Logo" class="logo">
+    </a>
+  </header>
+
+
+</head>
+
+
+<body>
+  <div class="quiz-container">
+    <h1>
+      <span class="red">KHARAGPUR</span>
+      <span class="white">DATA</span> <br>
+      <span class="white">ANALYTICS</span>
+      <span class="red">GROUP</span>
+      <span class="white">QUIZ</span>
+    </h1>
+
+    <form id="quizForm">
+      <!-- Question 1 -->
+      <div class="question">
+        <p>1. What does KDAG stand for?</p>
+        <label><input type="radio" name="q1" value="a"> Kharagpur Data Analytics Group</label>
+        <label><input type="radio" name="q1" value="b"> Kharagpur Design and Art Group</label>
+        <label><input type="radio" name="q1" value="c"> Knowledge Driven Analytics Guild</label>
+        <label><input type="radio" name="q1" value="d"> None of the above</label>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="question">
+        <p>2. Which programming language is most widely used in Data Analytics?</p>
+        <label><input type="radio" name="q2" value="a"> Java</label>
+        <label><input type="radio" name="q2" value="b"> C++</label>
+        <label><input type="radio" name="q2" value="c"> Python</label>
+        <label><input type="radio" name="q2" value="d"> PHP</label>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="question">
+        <p>3. Which library is commonly used for data visualization in Python?</p>
+        <label><input type="radio" name="q3" value="a"> NumPy</label>
+        <label><input type="radio" name="q3" value="b"> Matplotlib</label>
+        <label><input type="radio" name="q3" value="c"> SciPy</label>
+        <label><input type="radio" name="q3" value="d"> TensorFlow</label>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="question">
+        <p>4. Which of the following is an example of supervised learning?</p>
+        <label><input type="radio" name="q4" value="a"> K-Means Clustering</label>
+        <label><input type="radio" name="q4" value="b"> Principal Component Analysis</label>
+        <label><input type="radio" name="q4" value="c"> Association Rule Mining</label>
+        <label><input type="radio" name="q4" value="d"> Linear Regression</label>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="question">
+        <p>5. In data analytics, what does "ETL" stand for?</p>
+        <label><input type="radio" name="q5" value="a"> Extract, Transform, Load</label>
+        <label><input type="radio" name="q5" value="b"> Enter, Test, Learn</label>
+        <label><input type="radio" name="q5" value="c"> Evaluate, Transfer, Label</label>
+        <label><input type="radio" name="q5" value="d"> Execute, Track, Log</label>
+      </div>
+
+      <!-- Question 6 -->
+      <div class="question">
+          <p>6. Which of these is a NoSQL database?</p>
+          <label><input type="radio" name="q6" value="a"> MySQL</label>
+          <label><input type="radio" name="q6" value="b"> PostgreSQL</label>
+          <label><input type="radio" name="q6" value="c"> MongoDB</label>
+          <label><input type="radio" name="q6" value="d"> Oracle</label>
+      </div>
+  
+      <!-- Question 7 -->
+      <div class="question">
+        <p>7. In machine learning, which metric is commonly used to evaluate classification models?</p>
+        <label><input type="radio" name="q7" value="a"> Mean Squared Error</label>
+        <label><input type="radio" name="q7" value="b"> Accuracy</label>
+        <label><input type="radio" name="q7" value="c"> R-squared</label>
+        <label><input type="radio" name="q7" value="d"> Gradient Descent</label>
+      </div>
+  
+      <!-- Question 8 -->
+      <div class="question">
+          <p>8. Which of the following best describes “Big Data”?</p>
+          <label><input type="radio" name="q8" value="a"> Data that fits into Excel sheets</label>
+          <label><input type="radio" name="q8" value="b"> Very large, complex datasets beyond traditional tools</label>
+          <label><input type="radio" name="q8" value="c"> Only structured data stored in databases</label>
+          <label><input type="radio" name="q8" value="d"> Just images and videos</label>
+      </div>
+
+      <div class="question">
+        <p>9. Which of the following is an example of unsupervised learning?</p>
+        <label><input type="radio" name="q9" value="a"> Linear Regression</label>
+        <label><input type="radio" name="q9" value="b"> Decision Trees</label>
+        <label><input type="radio" name="q9" value="c"> K-Means Clustering</label>
+        <label><input type="radio" name="q9" value="d"> Logistic Regression</label>
+      </div>
+      
+      <!-- Question 10 -->
+      <div class="question">
+        <p>10. In data science, which step usually comes first?</p>
+        <label><input type="radio" name="q10" value="a"> Data Cleaning</label>
+        <label><input type="radio" name="q10" value="b"> Data Visualization</label>
+        <label><input type="radio" name="q10" value="c"> Model Training</label>
+        <label><input type="radio" name="q10" value="d"> Model Deployment</label>
+      </div>
+    
+          <button type="submit">Submit</button>
+        </form>
+    
+        <div id="result"></div>
+      </div>
+  <script src="script.js"></script>
+  
+</body>
+
+
+</html>
